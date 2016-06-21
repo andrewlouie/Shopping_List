@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+    <!--    <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>-->
+    </style>
+        <style name="Theme.PageIndicatorDefaultsCustom" parent="android:Theme.Holo.Light.DarkActionBar">
+            <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
+            <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+        </style>
+
+
+</resources>

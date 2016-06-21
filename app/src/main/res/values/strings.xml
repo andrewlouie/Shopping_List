@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shopping List</string>
+    <string name="about">About</string>
+    <string name="addlist">Add List</string>
+    <string name="removelist">Remove List</string>
+    <string name="renamelist">Rename List</string>
+    <string name="sortcategory">Sort by category</string>
+    <string name="sortname">Sort by name</string>
+    <string name="confirmdelete">Are you sure you want to delete</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="title">Title</string>
+    <string name="newtitle">New Title</string>
+    <string name="yes">Yes</string>
+    <string name="nolists">You have no lists</string>
+    <string name="browse">Browse</string>
+    <string name="share">Share</string>
+    <string name="addtocat">Add to category:</string>
+    <string name="added">Added to:</string>
+    <string name="title_activity_item_browse">ItemBrowseActivity</string>
+    <string name="other">** New Category **</string>
+    <string name="category">Category name</string>
+    <string name="addtolist">Add to list</string>
+    <string name="delete">Delete</string>
+    <string name="rename">Rename</string>
+    <string name="addsomething">Add something new to the list</string>
+
+</resources>

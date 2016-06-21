@@ -1,0 +1,31 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.andrewaarondev.shoppinglist"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+repositories {
+    maven { url "http://dl.bintray.com/populov/maven" }
+    mavenCentral()
+}
+dependencies {
+    compile project(':library')
+    compile 'com.android.support:support-v13:23.4.0'
+    compile 'com.android.support:support-v4:23.4.0'
+    compile 'de.greenrobot:eventbus:2.4.0'
+    compile 'com.android.support:recyclerview-v7:23.4.0'
+}

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/renameButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_column="0"
+            android:layout_span="1"
+            android:background="@android:color/transparent"
+            android:src="@drawable/rename_item" />
+
+        <ImageButton
+            android:id="@+id/deleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_column="1"
+            android:layout_span="1"
+            android:background="@android:color/transparent"
+            android:src="@drawable/document_delete" />
+
+        <ImageButton
+            android:id="@+id/addToListButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_column="2"
+            android:layout_span="1"
+            android:background="@android:color/transparent"
+            android:src="@drawable/add_to_list" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/renameButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_span="1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/rename"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/deleteButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_span="1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/delete"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/addToListButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_span="1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/addtolist"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </TableRow>
+</TableLayout>

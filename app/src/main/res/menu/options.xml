@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/addlist"
+        android:icon="@drawable/ic_playlist_add_white_24dp"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/addlist">
+    </item>
+    <item
+        android:id="@+id/removelist"
+        android:icon="@drawable/ic_delete_sweep_white_24dp"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/removelist">
+    </item>
+    <item
+        android:id="@+id/renamelist"
+        android:icon="@drawable/ic_label_outline_white_24dp"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/renamelist">
+    </item>
+    <item
+        android:id="@+id/browse"
+        android:icon="@drawable/ic_folder_special_white_24dp"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/browse">
+    </item>
+    <item
+        android:id="@+id/share"
+        android:title="@string/share"
+        android:actionProviderClass="android.widget.ShareActionProvider"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/ic_info_outline_white_24dp"
+        android:title="@string/about">
+    </item>
+</menu>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Liste de courses</string>
+    <string name="about">Sur</string>
+    <string name="added">Ajouté à</string>
+    <string name="addlist">Ajouter la liste</string>
+    <string name="addsomething"> Ajouter quelque chose de nouveau à la liste</string>
+    <string name="addtocat"> Ajouter à la catégorie</string>
+    <string name="addtolist"> Ajouter à la liste</string>
+    <string name="browse">Feuilleter</string>
+    <string name="cancel">Annuler</string>
+    <string name="category"> Nom de catégorie</string>
+    <string name="confirmdelete"> Etes-vous sûr que vous voulez supprimer</string>
+    <string name="delete">Effacer</string>
+    <string name="newtitle"> Nouveau titre</string>
+    <string name="nolists"> Vous avez pas de listes</string>
+    <string name="ok">OK</string>
+    <string name="other"> ** Nouvelle catégorie **</string>
+    <string name="removelist"> Supprimer la liste</string>
+    <string name="rename">Rebaptiser</string>
+    <string name="renamelist">Rebaptiser la liste</string>
+    <string name="share">Partager</string>
+    <string name="title">Titre</string>
+    <string name="yes">Oui</string>
+    <string name="title_activity_item_browse">ItemBrowseActivity</string>
+    <string name="sortcategory"> Trier par catégorie</string>
+    <string name="sortname"> Trier par nom</string>
+</resources>
